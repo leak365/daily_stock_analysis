@@ -63,8 +63,6 @@ jobs:
           # ==========================================
           # Gemini AI（主选）
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          OPENAI_MODEL: kimi-for-coding-free
-          OPENAI_BASE_URL: https://aihubmix.com/v1
           #GEMINI_MODEL: ${{ vars.GEMINI_MODEL || secrets.GEMINI_MODEL || 'gemini-3-flash-preview' }}
           GEMINI_MODEL_FALLBACK: ${{ vars.GEMINI_MODEL_FALLBACK || secrets.GEMINI_MODEL_FALLBACK || 'gemini-2.5-flash' }}
           GEMINI_REQUEST_DELAY: '3.0'
